@@ -7,6 +7,7 @@ use protocol::IrohAutomergeProtocol;
 use tokio::sync::mpsc;
 
 mod protocol;
+mod beelay_network;
 
 #[derive(Parser)]
 #[command(version, about, long_about = None)]
